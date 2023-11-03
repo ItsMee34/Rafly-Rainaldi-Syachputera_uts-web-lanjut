@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Welcome to Website</title>
+    <title>My Education</title>
     <meta name="description" content="The small framework with powerful features">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.ico">
@@ -212,18 +212,60 @@
             <li class="menu-item hidden"><a href="<?= site_url('/'); ?>">Home</a>
             <li class="menu-item hidden"><a href="<?= site_url('about'); ?>">About Me</a>
             <li class="menu-item hidden"><a href="<?= site_url('education'); ?>">Education</a>
-                 
+                   
             </li>
         </ul>
     </div>
 
     <div class="heroe">
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text align: center;
+        }
+        table, th, td {
+            border: 1px solid black;
+            text align: center;
+        }
+        th, td {
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
 
-        <h1>Selamat Datang di Website Rafly Rainaldi Syachputera</h1>
+        <h1>My Education</h1>
 
-        <h2>Ini digunakan untuk menunjukan kompetensi saya dalam menggunalan framework HMVC dalam pengembangan
-            aplikasi web serta mengelola source code menggunakan sistem kontrol versi GIT.
-        </h2>
+        <table border="1" cellpadding="5">
+        <tr>
+            <th>Tingkat</th>
+            <th>Nama Sekolah</th>
+            
+        
+        </tr>
+        <tr>
+            <td>SD</td>
+            <td>SD Ibu Jenab 2</td>
+           
+        </tr>
+        <tr>
+            <td>SMP</td>
+            <td>SMP Negeri 1 Cianjur</td>
+          
+        </tr>
+        <tr>
+            <td>SMA</td>
+            <td>SMA Negeri 1 Cianjur</td>
+          
+        </tr>
+        <tr>
+            <td>Kuliah</td>
+            <td>Universitas Widyatama</td>
+          
+        </tr>
+    </table>
+
+        
 
     </div>
 
@@ -231,14 +273,7 @@
 
 <!-- CONTENT -->
 
-<section>
 
-    <h1>About this page</h1>
-
-    <p>Halaman ini merupakan halaman selamat datang.</p>
-
-
-</section>
 
 
 
